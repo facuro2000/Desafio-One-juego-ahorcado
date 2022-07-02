@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>JUEGO AHORCADO</title>
+        <link rel="icon" href="logo_ahorcado.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Style_pagina_anadir_palabra.css">
+
+    </head>
+
+    <body>
+
+        <main>
+            <div >
+                <input style="width:400px;height:100px" type="text" id="palabra" placeholder="Ingrese la palabra" class="texto">
+            </div>
+
+            <div>
+                <a href="pagina_juego_ahorcado.html"><input type="submit" value="Cancelar" class="btn" ></a>
+                <a><input type="submit" value="Guardar y Comenzar Juego" class="btn" onclick=AgregarLista()></a>
+
+            </div>
+            
+        </main>
+
+        <footer>
+            <p class="copyright">©Facundo Rossi</p>
+        </footer>
+        
+    </body>
+
+
+
+
+</html>
+
+<script>
+    var listaDePalabras = [];
+
+    function AgregarLista(){
+        var nuevaP = document.querySelector("input");
+        nuevaP.focus();
+		a = nuevaP.value;
+        listaDePalabras.add(a);
+        document.getElementById("palabra").value = "";
+
+    }
+    console.log(listaDePalabras);
+</script>

@@ -1,0 +1,62 @@
+body{
+    background: rgb(16, 156, 243);
+    text-align: center;
+    top: 121px;
+    position: relative;
+    max-height: 89px;
+}
+.caja{
+    position: relative;
+    top: -450px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    color: black;
+    background: transparent;
+
+}
+.canvas{
+    position: relative;
+    top: -310px;
+}
+footer{
+    text-align: center;
+    padding: 40px;
+    position: relative;
+    top:  -349px;
+    font-family: cursive;
+}
+
+.copyright{
+    color: lightgreen;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.foto{
+    text-align: center;
+}
+
+.btn{
+    width: 40%;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background: lightgreen;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    position: relative;
+    margin: 20px 20px 20px 20px;
+}
+
+.btn:hover{
+    background: lightgreen;
+    transform: scale(1.05);
+    
+}

@@ -1,0 +1,62 @@
+body{
+    background: rgb(16, 156, 243);
+    top: 121px;
+    position: relative;
+}
+
+
+main{
+    background: transparent;
+}
+
+.texto{
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    width: 30%;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background: lightgreen;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    position: relative;
+    display: inline;
+    margin: 20px 120px;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.btn:hover{
+    background: lightgreen;
+    transform: scale(1.1);
+    text-decoration: none;
+    
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+    font-family: cursive;
+    color: lightgreen;
+}
+
+.copyright{
+    color: lightgreen;
+    font-size: 18px;
+    margin: 20px;
+}
